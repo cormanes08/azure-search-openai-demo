@@ -126,17 +126,17 @@ const Chat = () => {
 
     return (
         <div className={styles.container}>
-            <div className={styles.commandsContainer}>
+            {/*<div className={styles.commandsContainer}>
                 <ClearChatButton className={styles.commandButton} onClick={clearChat} disabled={!lastQuestionRef.current || isLoading} />
                 <SettingsButton className={styles.commandButton} onClick={() => setIsConfigPanelOpen(!isConfigPanelOpen)} />
-            </div>
+    </div>*/}
             <div className={styles.chatRoot}>
                 <div className={styles.chatContainer}>
                     {!lastQuestionRef.current ? (
                         <div className={styles.chatEmptyState}>
-                            <SparkleFilled fontSize={"120px"} primaryFill={"rgba(115, 118, 225, 1)"} aria-hidden="true" aria-label="Chat logo" />
-                            <h1 className={styles.chatEmptyStateTitle}>Chat with your data</h1>
-                            <h2 className={styles.chatEmptyStateSubtitle}>Ask anything or try an example</h2>
+                            {/*<SparkleFilled fontSize={"120px"} primaryFill={"rgba(115, 118, 225, 1)"} aria-hidden="true" aria-label="Chat logo" />*/}
+                            <img className={styles.ivana} src="https://b89e102ca9987036348701a7d0caafc3.cdn.bubble.io/f1686305703811x641860296471891000/ivana.png" alt="Ivana" width="250" height="200"></img>
+                            <h1 className={styles.chatEmptyStateTitle}>Ask anything to Ivana</h1>
                             <ExampleList onExampleClicked={onExampleClicked} />
                         </div>
                     ) : (

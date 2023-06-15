@@ -7,7 +7,7 @@ import styles from "./Layout.module.css";
 const Layout = () => {
     return (
         <div className={styles.layout}>
-            <header className={styles.header} role={"banner"}>
+           {/* <header className={styles.header} role={"banner"}>
                 <div className={styles.headerContainer}>
                     <Link to="/" className={styles.headerTitleContainer}>
                         <h3 className={styles.headerTitle}>GPT + Enterprise data | Sample</h3>
@@ -40,8 +40,8 @@ const Layout = () => {
                     </nav>
                     <h4 className={styles.headerRightText}>Azure OpenAI + Cognitive Search</h4>
                 </div>
-            </header>
-
+    </header> */}
+            
             <Outlet />
         </div>
     );

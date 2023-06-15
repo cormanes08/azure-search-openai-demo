@@ -1,5 +1,5 @@
 import { Sparkle28Filled } from "@fluentui/react-icons";
 
 export const AnswerIcon = () => {
-    return <Sparkle28Filled primaryFill={"rgba(115, 118, 225, 1)"} aria-hidden="true" aria-label="Answer logo" />;
+    return <img src="https://b89e102ca9987036348701a7d0caafc3.cdn.bubble.io/f1686306898261x997058961544022000/ivana_small.png" alt="Ivana" width="150" height="150"></img>;
 };

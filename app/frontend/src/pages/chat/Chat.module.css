@@ -40,6 +40,12 @@
     margin-bottom: 10px;
 }
 
+.ivana{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 @media only screen and (max-height: 780px) {
     .chatEmptyState {
         padding-top: 0;
